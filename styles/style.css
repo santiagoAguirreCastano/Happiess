@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family:Arial, Helvetica, sans-serif
 }
 /*HEADER*/
 header{
@@ -20,6 +21,7 @@ a{
     text-decoration: none;
     color:black ;
     padding-right: 50px;
+    font-weight: 800;
 }
 
 
@@ -32,6 +34,9 @@ a{
     align-items: center;
     background-color: white;
 }
+.section1{
+    height: 700px;
+}
 .h1{
     font-size: 60px;
     padding-bottom: 20px;
@@ -43,6 +48,7 @@ a{
     border: none;
     margin-top: 20px;
     color: black;
+    font-weight: 800;
 }
 .divSection1_2{    
     width:25%;
@@ -53,4 +59,144 @@ a{
     display: flex;
     width: 50%;
     height: 300px;
+    position: absolute;
+    align-items: center;
+    left: 20%;
+    padding: 50px 80px;
+
+}
+.section1-1 h2{
+    color: rgb(245, 204, 8);
+    font-size: 50px;
+}
+.img_1{
+    display: flex;
+}
+
+.img_1 img{
+height: 220px;
+padding: 20px;
+}
+.Read_more{
+    padding-top: 20px;
+    font-weight: 800;
+}
+/*SECTION2*/
+
+
+.section2{
+    background-color: rgb(245, 203, 0);
+    height: 1100px;
+    display: flex;
+    align-items: center;
+}
+.section2 img{
+    position: absolute;
+    top: 1240px;
+    left: 36%;
+}
+.div_section2{
+    margin-top: -250px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+}
+.div_section2 h2{
+    font-size: 60px;
+    width: 100%;
+}
+.div_section2 p{
+    width: 67%;
+    padding-top: 40px;
+}
+.div_section2 button{
+    width: 150px;
+    margin-top: 20px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+/*SECTION3*/
+.section3{
+    display: flex;
+    background-color:rgb(231, 231, 231) ;
+    margin: 100px 300px;
+    box-shadow: 40px 10px 120px -60px;
+
+}
+.section3 h2{
+    font-size: 60px;
+    color: rgb(245, 204, 0);
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.section3 button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin: 60px;
+    margin-top: 40px;
+
+}
+.section3 p{
+    width: 50%;
+    padding-left: 60px;
+    padding-top: 10px;
+
+}
+
+.grafica_img{
+    height: 270px;
+    position: absolute;
+    bottom: -1670px;
+    left:65%;
+
+}
+
+/*SECTION4*/
+.section4{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   height: 800px;
+}
+.section4 p{
+    color: white;
+    padding: 20px 650px;
+}
+.section4 h3{
+    color: rgb(245, 204, 0);
+    padding: 10px;
+    font-size: 30px;
+}
+.section4 img{
+   width: 900px;
+}
+.section4 button{
+    width: 150px;
+    height: 45px;
+    margin-left: 45%;
+    color: black;
+    background-color: rgb(245, 204, 0);
+    font-weight: 800;
+    margin-top: 30px;
+    border: none;
+}
+
+/*SECTION5*/
+.section5{
+    display: flex;
+    margin: 100px;
+}
+.img_section5{
+
+}
+.div_section5{
+    padding: 200px 300px;
 }
