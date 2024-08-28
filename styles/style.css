@@ -6,12 +6,17 @@
 /*HEADER*/
 header{
     background-color:rgb(245, 203, 0);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
 }
 nav{
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
+    
 }
 .img_logo1{
     margin: 10px;
@@ -192,11 +197,386 @@ padding: 20px;
 /*SECTION5*/
 .section5{
     display: flex;
-    margin: 100px;
+    margin: 130px;
 }
-.img_section5{
 
-}
 .div_section5{
     padding: 200px 300px;
+}
+.div_section5 h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.div_section5 button{
+    width: 150px;
+    height: 45px;
+    color: black;
+    background-color: rgb(245, 204, 0);
+    border: none;
+    font-weight: 800;
+    margin-top: 45px;
+}
+
+
+
+/*SECTION6*/
+
+
+
+.section6{
+    display: flex;
+    background-color:rgb(231, 231, 231) ;
+    align-items: center;
+}
+.div_section6{
+margin: 100px;
+width: 700px;
+}
+.section6 img{
+    margin: 100px;
+}
+.div_section6 p{
+    width: 400px;
+    margin-top: 30px;
+}
+.div_section6 button{
+    width: 150px;
+    height: 45px;
+    color: black;
+    background-color: rgb(245, 204, 0);
+    border: none;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.div_section6 h2{
+    font-size: 70px;
+}
+
+
+/*SECTION7*/
+
+
+
+.section7{
+    display: flex;
+    align-items: center;
+}
+.div_section7{
+ background-color: black;
+ color: white;
+ padding: 100px 50px;
+ width:550px;
+ margin: 150px;
+}
+.div_section7_2{
+    display: flex;
+    gap: 50px;
+
+}
+input{
+    height: 28px;
+    width: 250px;
+    background-color: transparent;
+    border-color: white;
+
+}
+.inputs{
+    width: 555px;
+}
+.div_section7 h3{
+    margin-top: 20px;
+}
+textarea{
+    background-color: transparent;
+    border-color: white;
+    height: 170px;
+    width: 555px;
+
+}
+.div_section7 p{
+margin-top: 40px;
+margin-bottom: -50px;
+}
+
+.div_section7_3{
+    width: 500px;
+    margin-left: 150px;
+}
+.div_section7_3 h2{
+    font-size: 50px;
+    color:rgb(245, 204, 0) ;
+    margin-bottom: 20px;
+}
+.div_section7_3 p{
+    width: 440px;
+}
+.div_section7_3 button{
+    margin-top:40px;
+    width: 150px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
+
+/*SECTION8*/
+
+
+
+.section8{
+    background-color: rgb(245, 204, 0);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.section8 img{
+    width: 1400px;
+    margin-left: 13%;
+}
+.section8 button{
+    width: 170px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 50px;
+    margin-left: 45%;
+   
+}
+.section8 h3{
+    font-size: 40px;
+    margin: 30px;
+    margin-top: 60px;
+    font-weight: 800px;
+}
+.section8 p{
+    margin-bottom: 30px;
+}
+
+
+/*FOOTER*/
+
+
+footer{
+    background-color: black;
+    color: rgb(245, 204, 0);
+    height: 600px;
+}
+footer img{
+    margin: 50px;
+}
+.div_h4{
+    display: flex;
+    gap: 30px;
+    margin: 50px;
+    font-size: 20px;
+    margin-bottom: 120px;
+}
+hr{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.div_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div_footer p{
+    margin-left: 50px;
+}
+.img_logos{
+    margin-left: -40px;
+    height: 25px;
+}
+
+@media screen and (max-width:480px){
+    .section1{
+        height: 1000px;
+    }
+    .div_section1{
+        flex-direction: column;
+        margin: 0px;
+        text-align: center;
+    }
+    .div_section1 img{
+        height: 300px;
+        margin: 0px;
+        margin-top: 30px;
+        
+    }
+    .divSection1_2{
+        margin: 0;
+        width: 300px;
+    }
+    .divSection1_2 h1{
+        font-size: 40px;
+    }
+    .section1-1{
+        flex-direction: column;
+        height: 500px;
+        left: 40px;
+        top: 800px;
+    }
+
+    .section1-1 img{
+        height: 150px;
+    }
+    .section1-1 h2{
+        font-size: 40px;
+    }
+
+    /*SECTION 2*/
+
+    .section2{
+        flex-direction: column;
+        height: 1300px;
+    }
+
+    .section2 img{
+        height: 250px;
+        left: 11%;
+        top: 1450px;
+    }
+    .div_section2{
+        margin: 0;
+        margin-top: 700px;
+        width: 400px;
+        text-align: center;
+    }
+    .div_section2 p{
+        margin-left: 60px;
+    }
+    .div_section2 button{
+        margin-left: 120px;
+    }
+
+    /*SECTION 3*/
+    .section3{
+        flex-direction: column;
+        margin: 0;
+        height: 1200px;
+        text-align: center;
+        box-shadow: none;
+
+    }
+    .grafica_img{
+        height: 200px;
+        top: 380%;
+        left: 30%;
+    }
+    .div_section3 img{
+        height: 510px;
+    }
+    .section3 h2{
+        font-size: 50px;
+        padding-left: 0px;
+    }
+    .section3 p{
+        margin-left:50px ;
+    }
+
+    /*SECTION 4*/
+    .section4{
+        flex-direction: column;
+        height: 600px;
+    }
+    .section4 h3{
+        padding-bottom: 20px;
+    }
+    .section4 img{
+        width: 400px;
+        
+    }
+    .section4 p{
+        padding: 0;
+        padding-bottom:50px;
+        width: 400px;
+        padding-left: 40px;
+    }
+    .section4 button{
+        margin-left: 170px;
+    }
+    
+    /*SECTION 5*/
+
+    .section5{
+        flex-direction: column;
+        margin: 0;
+    }
+    .section5 img{
+        height: 350px;
+        padding: 20px;
+        padding-left: 40px;
+    }
+    .div_section5{
+        padding: 0;
+        text-align: center;
+        margin: 30px;
+    }
+
+    /*SECTION 6*/
+    .section6{
+        flex-direction: column;
+    }
+    .section6 h2{
+        font-size: 30px;
+    }
+    .div_section6{
+        margin: 20px;
+        width: auto;
+        text-align: center;
+    }
+    .section6 img{
+        height: 420px;
+        margin: 0;
+    }
+
+    /*SECTION 7*/
+    .section7{
+        flex-direction: column;
+    }
+    .div_section7{
+        width: 300px;
+        margin: 0;
+        padding-top: 30px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+
+    }
+    input{
+        width: 125px;
+    }
+    .inputs{
+        width: 300px;
+    }
+    textarea{
+        width: 300px;
+    }
+    .div_section7_3{
+        width: auto;
+        margin: 20px;
+        text-align: center;
+    }
+    .div_section7_3 h2{
+        font-size: 40px;
+        
+    }
+    
+    /*SECTION 8*/
+    .section8{
+        align-items: center;
+    }
+    .section8 img{
+        width: 400px;
+        margin: 0;
+    }
+    .section8 button{
+        margin: 0;
+        margin: 20px;
+    }
 }
